@@ -1,0 +1,56 @@
+process_queue:
+  address: localhost
+  port: 5672
+  credentials:
+    username: mm-test
+    password: mm-test
+  ssh:
+    username: mm
+    path_to_privkey: /home/mm/.ssh/cloud.key
+  skip_deployment: false
+database:
+  address: localhost
+  port: 27018
+  credentials:
+    username: admin
+    password: admin
+  ssh:
+    username: mm
+    path_to_privkey: /home/mm/.ssh/cloud.key
+  skip_deployment: false
+hosts:
+  - address: localhost
+    username: mm
+    path_to_privkey: /home/mm/.ssh/cloud.key
+    workers:
+      - name: ocrd-cis-ocropy-binarize
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-anybaseocr-crop
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-cis-ocropy-denoise
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-cis-ocropy-deskew
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-tesserocr-segment-region
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-segment-repair
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-cis-ocropy-clip
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-cis-ocropy-segment
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-cis-ocropy-dewarp
+        number_of_instance: 2
+        deploy_type: native
+      - name: ocrd-tesserocr-recognize
+        number_of_instance: 2
+        deploy_type: native
+
