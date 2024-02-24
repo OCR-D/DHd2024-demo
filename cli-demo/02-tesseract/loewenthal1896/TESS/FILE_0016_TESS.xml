@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="FILE_0016_TESS">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.63.0</pc:Creator>
+        <pc:Created>2024-02-24T19:18:32.736168</pc:Created>
+        <pc:LastChange>2024-02-24T19:18:32.736168</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="word" type="textequiv_level"/>
+                <pc:Label value="frak2021" type="model"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="overwrite_segments"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="DEFAULT/FILE_0016_DEFAULT.jpg" imageWidth="1267" imageHeight="1959">
+        <pc:AlternativeImage filename="TESS/FILE_0016_TESS.IMG-BIN.png" comments=",binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="6" regionRef="region0006"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0001" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="185,69 1161,69 1161,254 185,254"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:Coords points="185,69 1021,69 1021,148 185,148"/>
+                <pc:Word id="region0001_line0000_word0000">
+                    <pc:Coords points="185,88 193,88 193,91 185,91"/>
+                    <pc:TextEquiv conf="0.579468460083008">
+                        <pc:Unicode>r</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0000_word0001">
+                    <pc:Coords points="226,82 394,82 394,129 226,129"/>
+                    <pc:TextEquiv conf="0.579468460083008">
+                        <pc:Unicode>erſchienene</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0000_word0002">
+                    <pc:Coords points="412,69 571,69 571,133 412,133"/>
+                    <pc:TextEquiv conf="0.871750946044922">
+                        <pc:Unicode>Schriften</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0000_word0003">
+                    <pc:Coords points="592,99 649,99 649,122 592,122"/>
+                    <pc:TextEquiv conf="0.931862335205078">
+                        <pc:Unicode>von</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0000_word0004">
+                    <pc:Coords points="678,84 834,84 834,133 678,133"/>
+                    <pc:TextEquiv conf="0.912592620849609">
+                        <pc:Unicode>demſelben</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0000_word0005">
+                    <pc:Coords points="859,90 1021,90 1021,148 859,148"/>
+                    <pc:TextEquiv conf="0.904471130371094">
+                        <pc:Unicode>Verfaſſer:</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.796602325439453">
+                    <pc:Unicode>r erſchienene Schriften von demſelben Verfaſſer:</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0001_line0001">
+                <pc:Coords points="248,141 1161,141 1161,204 248,204"/>
+                <pc:Word id="region0001_line0001_word0000">
+                    <pc:Coords points="248,141 322,141 322,183 248,183"/>
+                    <pc:TextEquiv conf="0.822300338745117">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0001_word0001">
+                    <pc:Coords points="347,146 509,146 509,189 347,189"/>
+                    <pc:TextEquiv conf="0.918032531738281">
+                        <pc:Unicode>Geſchichte</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0001_word0002">
+                    <pc:Coords points="537,149 590,149 590,184 537,184"/>
+                    <pc:TextEquiv conf="0.931585540771484">
+                        <pc:Unicode>des</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0001_word0003">
+                    <pc:Coords points="603,150 848,150 848,192 603,192"/>
+                    <pc:TextEquiv conf="0.736774673461914">
+                        <pc:Unicode>Naturalismus.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0001_word0004">
+                    <pc:Coords points="897,156 1033,156 1033,203 897,203"/>
+                    <pc:TextEquiv conf="0.906603851318359">
+                        <pc:Unicode>(Leipzig,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0001_word0005">
+                    <pc:Coords points="1047,160 1161,160 1161,204 1047,204"/>
+                    <pc:TextEquiv conf="0.794043502807617">
+                        <pc:Unicode>fünf</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.851556739807129">
+                    <pc:Unicode>und Geſchichte des Naturalismus. (Leipzig, fünf</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0001_line0002">
+                <pc:Coords points="249,190 1140,190 1140,254 249,254"/>
+                <pc:Word id="region0001_line0002_word0000">
+                    <pc:Coords points="249,190 348,190 348,235 249,235"/>
+                    <pc:TextEquiv conf="0.915713272094727">
+                        <pc:Unicode>agen.)</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0002_word0001">
+                    <pc:Coords points="396,193 472,193 472,235 396,235"/>
+                    <pc:TextEquiv conf="0.932607650756836">
+                        <pc:Unicode>Auch</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0002_word0002">
+                    <pc:Coords points="496,195 528,195 528,228 496,228"/>
+                    <pc:TextEquiv conf="0.930394821166992">
+                        <pc:Unicode>in</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0002_word0003">
+                    <pc:Coords points="552,197 699,197 699,239 552,239"/>
+                    <pc:TextEquiv conf="0.913292846679687">
+                        <pc:Unicode>engliſcher</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0002_word0004">
+                    <pc:Coords points="723,195 921,195 921,249 723,249"/>
+                    <pc:TextEquiv conf="0.930200729370117">
+                        <pc:Unicode>Ueberſetzung</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0001_line0002_word0005">
+                    <pc:Coords points="947,203 1140,203 1140,254 947,254"/>
+                    <pc:TextEquiv conf="0.877804260253906">
+                        <pc:Unicode>erſchienen.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.916668930053711">
+                    <pc:Unicode>agen.) Auch in engliſcher Ueberſetzung erſchienen.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.854942665100098">
+                <pc:Unicode>r erſchienene Schriften von demſelben Verfaſſer:
+und Geſchichte des Naturalismus. (Leipzig, fünf
+agen.) Auch in engliſcher Ueberſetzung erſchienen.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="216,240 1112,240 1112,336 216,336"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:Coords points="216,240 1112,240 1112,305 216,305"/>
+                <pc:Word id="region0002_line0000_word0000">
+                    <pc:Coords points="216,240 334,240 334,288 216,288"/>
+                    <pc:TextEquiv conf="0.709426879882812">
+                        <pc:Unicode>Aampf</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0001">
+                    <pc:Coords points="356,253 407,253 407,280 356,280"/>
+                    <pc:TextEquiv conf="0.709426879882812">
+                        <pc:Unicode>um</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0002">
+                    <pc:Coords points="439,245 487,245 487,281 439,281"/>
+                    <pc:TextEquiv conf="0.925129928588867">
+                        <pc:Unicode>die</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0003">
+                    <pc:Coords points="511,248 702,248 702,293 511,293"/>
+                    <pc:TextEquiv conf="0.56346378326416">
+                        <pc:Unicode>enropäiſche</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0004">
+                    <pc:Coords points="726,251 934,251 934,295 726,295"/>
+                    <pc:TextEquiv conf="0.860370254516602">
+                        <pc:Unicode>Suprematie.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0000_word0005">
+                    <pc:Coords points="982,250 1112,250 1112,305 982,305"/>
+                    <pc:TextEquiv conf="0.887273254394531">
+                        <pc:Unicode>(Berlin/</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.775848496754964">
+                    <pc:Unicode>Aampf um die enropäiſche Suprematie. (Berlin/</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0001">
+                <pc:Coords points="224,287 613,287 613,336 224,336"/>
+                <pc:Word id="region0002_line0001_word0000">
+                    <pc:Coords points="261,287 224,287 224,336 261,336"/>
+                    <pc:TextEquiv conf="0.737118835449219">
+                        <pc:Unicode>rl</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0001_word0001">
+                    <pc:Coords points="275,287 472,287 472,332 275,332"/>
+                    <pc:TextEquiv conf="0.916627578735352">
+                        <pc:Unicode>Siegismund</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0001_word0002">
+                    <pc:Coords points="502,294 613,294 613,336 502,336"/>
+                    <pc:TextEquiv conf="0.608281631469727">
+                        <pc:Unicode>1890.)</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.754009348551432">
+                    <pc:Unicode>rl Siegismund 1890.)</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.764928922653198">
+                <pc:Unicode>Aampf um die enropäiſche Suprematie. (Berlin/
+rl Siegismund 1890.)</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0004" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="153,484 1134,484 1134,930 153,930"/>
+            <pc:TextLine id="region0004_line0000">
+                <pc:Coords points="203,484 625,484 625,578 203,578"/>
+                <pc:Word id="region0004_line0000_word0000">
+                    <pc:Coords points="203,484 308,484 308,573 203,573"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>S</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0000_word0001">
+                    <pc:Coords points="330,531 426,531 426,574 330,574"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>gell</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0000_word0002">
+                    <pc:Coords points="609,542 625,542 625,578 609,578"/>
+                    <pc:TextEquiv conf="0.373683700561523">
+                        <pc:Unicode>5</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.791227900187174">
+                    <pc:Unicode>S gell 5</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0001">
+                <pc:Coords points="240,538 1108,538 1108,595 240,595"/>
+                <pc:Word id="region0004_line0001_word0001">
+                    <pc:Coords points="240,538 323,538 323,576 240,576"/>
+                    <pc:TextEquiv conf="0.883152847290039">
+                        <pc:Unicode>Staat</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0002">
+                    <pc:Coords points="362,539 525,539 525,583 362,583"/>
+                    <pc:TextEquiv conf="0.89700553894043">
+                        <pc:Unicode>Bellamy's</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0003">
+                    <pc:Coords points="565,551 606,551 606,578 565,578"/>
+                    <pc:TextEquiv conf="0.28511360168457">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0004">
+                    <pc:Coords points="652,544 726,544 726,585 652,585"/>
+                    <pc:TextEquiv conf="0.808327789306641">
+                        <pc:Unicode>ſeine</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0005">
+                    <pc:Coords points="765,547 930,547 930,593 765,593"/>
+                    <pc:TextEquiv conf="0.408621292114258">
+                        <pc:Unicode>Nachfolge.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0001_word0006">
+                    <pc:Coords points="978,552 1108,552 1108,595 978,595"/>
+                    <pc:TextEquiv conf="0.928843002319336">
+                        <pc:Unicode>(Berlin,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.701844011942546">
+                    <pc:Unicode>Staat Bellamy's und ſeine Nachfolge. (Berlin,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0002">
+                <pc:Coords points="158,538 441,538 441,631 158,631"/>
+                <pc:Word id="region0004_line0002_word0000">
+                    <pc:Coords points="158,538 441,538 441,631 158,631"/>
+                    <pc:TextEquiv conf="0.196256256103516">
+                        <pc:Unicode>Refomm-Verlag)</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.196256256103516">
+                    <pc:Unicode>Refomm-Verlag)</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0003">
+                <pc:Coords points="153,634 1097,634 1097,693 153,693"/>
+                <pc:Word id="region0004_line0003_word0000">
+                    <pc:Coords points="153,637 159,637 159,645 153,645"/>
+                    <pc:TextEquiv conf="0.926203994750977">
+                        <pc:Unicode>as</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0003_word0001">
+                    <pc:Coords points="233,634 472,634 472,679 233,679"/>
+                    <pc:TextEquiv conf="0.37972900390625">
+                        <pc:Unicode>Gkogitautenthum</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0003_word0002">
+                    <pc:Coords points="497,641 553,641 553,674 497,674"/>
+                    <pc:TextEquiv conf="0.916886138916016">
+                        <pc:Unicode>als</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0003_word0003">
+                    <pc:Coords points="569,642 724,642 724,677 569,677"/>
+                    <pc:TextEquiv conf="0.83651611328125">
+                        <pc:Unicode>Staats⸗</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0003_word0004">
+                    <pc:Coords points="751,647 821,647 821,678 751,678"/>
+                    <pc:TextEquiv conf="0.83651611328125">
+                        <pc:Unicode>und</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0003_word0005">
+                    <pc:Coords points="840,647 1097,647 1097,693 840,693"/>
+                    <pc:TextEquiv conf="0.917487564086914">
+                        <pc:Unicode>Weltreligion.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.802223154703776">
+                    <pc:Unicode>as Gkogitautenthum als Staats⸗ und Weltreligion.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0004">
+                <pc:Coords points="187,680 1134,680 1134,731 187,731"/>
+                <pc:Word id="region0004_line0004_word0000">
+                    <pc:Coords points="187,680 307,680 307,728 187,728"/>
+                    <pc:TextEquiv conf="0.919889221191406">
+                        <pc:Unicode>Berlin,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0004_word0001">
+                    <pc:Coords points="329,682 411,682 411,717 329,717"/>
+                    <pc:TextEquiv conf="0.932390594482422">
+                        <pc:Unicode>Carl</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0004_word0002">
+                    <pc:Coords points="428,683 624,683 624,727 428,727"/>
+                    <pc:TextEquiv conf="0.923119659423828">
+                        <pc:Unicode>Siegismund</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0004_word0003">
+                    <pc:Coords points="652,689 761,689 761,731 652,731"/>
+                    <pc:TextEquiv conf="0.905042343139648">
+                        <pc:Unicode>1893.)</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0004_word0004">
+                    <pc:Coords points="867,706 870,706 870,707 867,707"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>ö</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.936088363647461">
+                    <pc:Unicode>Berlin, Carl Siegismund 1893.) ö</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0005">
+                <pc:Coords points="174,731 1102,731 1102,820 174,820"/>
+                <pc:Word id="region0004_line0005_word0000">
+                    <pc:Coords points="174,731 176,731 176,733 174,733"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>ö</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0005_word0001">
+                    <pc:Coords points="203,732 328,732 328,820 203,820"/>
+                    <pc:TextEquiv conf="0.342875595092773">
+                        <pc:Unicode>g)</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0005_word0002">
+                    <pc:Coords points="355,734 480,734 480,771 355,771"/>
+                    <pc:TextEquiv conf="0.914537048339844">
+                        <pc:Unicode>Motive</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0005_word0003">
+                    <pc:Coords points="505,736 556,736 556,772 505,772"/>
+                    <pc:TextEquiv conf="0.924015808105469">
+                        <pc:Unicode>des</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0005_word0004">
+                    <pc:Coords points="574,737 771,737 771,783 574,783"/>
+                    <pc:TextEquiv conf="0.897863922119141">
+                        <pc:Unicode>Strafrechts.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0005_word0005">
+                    <pc:Coords points="819,744 950,744 950,787 819,787"/>
+                    <pc:TextEquiv conf="0.931316299438477">
+                        <pc:Unicode>(Berlin,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0005_word0006">
+                    <pc:Coords points="969,748 1102,748 1102,788 969,788"/>
+                    <pc:TextEquiv conf="0.910649795532227">
+                        <pc:Unicode>Reform⸗</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.845894066946847">
+                    <pc:Unicode>ö g) Motive des Strafrechts. (Berlin, Reform⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0006">
+                <pc:Coords points="246,782 443,782 443,836 246,836"/>
+                <pc:Word id="region0004_line0006_word0000">
+                    <pc:Coords points="246,782 291,782 291,836 246,836"/>
+                    <pc:TextEquiv conf="0.898565139770508">
+                        <pc:Unicode>ag.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0006_word0001">
+                    <pc:Coords points="441,816 443,816 443,818 441,818"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>ö</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.949282569885254">
+                    <pc:Unicode>ag. ö</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0007">
+                <pc:Coords points="217,829 1102,829 1102,892 217,892"/>
+                <pc:Word id="region0004_line0007_word0000">
+                    <pc:Coords points="217,829 394,829 394,876 217,876"/>
+                    <pc:TextEquiv conf="0.917052001953125">
+                        <pc:Unicode>nationales</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0007_word0001">
+                    <pc:Coords points="437,834 710,834 710,873 437,873"/>
+                    <pc:TextEquiv conf="0.445842933654785">
+                        <pc:Unicode>Säcular-Album.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0007_word0002">
+                    <pc:Coords points="759,842 785,842 785,873 759,873"/>
+                    <pc:TextEquiv conf="0.928672027587891">
+                        <pc:Unicode>I.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0007_word0003">
+                    <pc:Coords points="825,842 924,842 924,883 825,883"/>
+                    <pc:TextEquiv conf="0.925553131103516">
+                        <pc:Unicode>Band.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0007_word0004">
+                    <pc:Coords points="973,839 1102,839 1102,892 973,892"/>
+                    <pc:TextEquiv conf="0.792213668823242">
+                        <pc:Unicode>(Berlin,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.801866752624512">
+                    <pc:Unicode>nationales Säcular-Album. I. Band. (Berlin,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0004_line0008">
+                <pc:Coords points="170,875 490,875 490,930 170,930"/>
+                <pc:Word id="region0004_line0008_word0000">
+                    <pc:Coords points="170,875 252,875 252,930 170,930"/>
+                    <pc:TextEquiv conf="0.932110748291016">
+                        <pc:Unicode>Carl</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0008_word0001">
+                    <pc:Coords points="268,876 490,876 490,921 268,921"/>
+                    <pc:TextEquiv conf="0.798311538696289">
+                        <pc:Unicode>Siegismund.)</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.865211143493652">
+                    <pc:Unicode>Carl Siegismund.)</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.765543802170526">
+                <pc:Unicode>S gell 5
+Staat Bellamy's und ſeine Nachfolge. (Berlin,
+Refomm-Verlag)
+as Gkogitautenthum als Staats⸗ und Weltreligion.
+Berlin, Carl Siegismund 1893.) ö
+ö g) Motive des Strafrechts. (Berlin, Reform⸗
+ag. ö
+nationales Säcular-Album. I. Band. (Berlin,
+Carl Siegismund.)</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0000" orientation="0.">
+            <pc:Coords points="619,0 1267,0 1267,228 619,228"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0003" orientation="0.">
+            <pc:Coords points="0,192 1267,192 1267,1959 0,1959"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0005" orientation="0.">
+            <pc:Coords points="0,598 428,598 428,647 0,647"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0006" orientation="0.">
+            <pc:Coords points="0,756 255,756 255,837 0,837"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0007" orientation="0.">
+            <pc:Coords points="506,1294 673,1294 673,1463 506,1463"/>
+        </pc:ImageRegion>
+        <pc:SeparatorRegion id="region0008">
+            <pc:Coords points="380,1905 787,1905 787,1915 380,1915"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>
