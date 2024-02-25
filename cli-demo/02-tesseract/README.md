@@ -52,6 +52,7 @@ weitverbreitete Open Source OCR-Engine
 ```sh
 ocrd-tesserocr-recognize       \
   -m loewenthal1896/mets.xml   \
+  -l DEBUG                     \
   -I DEFAULT                   \
   -O TESS                      \
   -P segmentation_level region \
@@ -68,7 +69,34 @@ Die Parameter bedeuten:
 * `-P segmentation_level region`: Es soll in einem Schritt von Regionen bis auf Zeilenebene segmentiert werden.
 * `-P model frak2021`: Es soll das `frak2021` Modell für Frakturschrift verwendet werden
 
-Wenn der Prozess durchgelaufen ist, sehen wir die folgenden zusätzlichen Dateien im Workspace:
+## OCR-D Resource Manager
+
+Der erste Durchlauf schlägt fehl mit einer Fehermeldung
+
+```
+Exception: configured model frak2021 is not installed
+```
+
+Das bedeutet dass das ausgewählte Modell nicht auf der Maschine vorhanden ist. Wir müssen es mit dem OCR-D Resource Manager herunterladen:
+
+```sh
+> ocrd resmgr download ocrd-tesserocr-recognize frak2021.traineddata
+[...]
+... INFO ocrd.cli.resmgr - Installed resource https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/frak2021/tessdata_best/frak2021-0.905.traineddata under /home/kba/.pyenv/versions/3.8-dev/envs/venv3.8-dev/share/tessdata/frak2021.traineddata
+... INFO ocrd.cli.resmgr - Use in parameters as 'frak2021'
+```
+
+Im OCR-D Resource Manager sind eine Vielzahl von Modellen und Konfigurationen
+für diverse Prozessoren verfügbar, die mit `ocrd resmgr download` installiert
+werden können.
+
+Mit `ocrd resmgr list-available` werden [alle verfügbaren Resourcen für alle Prozessoren](./resources_available.txt) ausgegeben.
+
+Mehr Informationen zum OCR-D Resource manager über `ocrd resmgr --help` und [auf der OCR-D Website](https://ocr-d.de/en/models).
+
+## Ergebnis
+
+Jetzt können wir den Befehl erneut ausführen und wenn der Prozess durchgelaufen ist, sehen wir die folgenden zusätzlichen Dateien im Workspace:
 
 ```
 loewenthal1896/TESS
@@ -122,4 +150,6 @@ Erkennung als PAGE-XML (`*.xml`)
 
 Wir können das Ergebnis nun mit `browse-ocrd` betrachten:
 
-...
+```
+browse-ocrd loewenthal1896/mets.xml
+```

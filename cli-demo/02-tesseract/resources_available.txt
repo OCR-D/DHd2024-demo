@@ -1,0 +1,134 @@
+ocrd-calamari-recognize
+- qurator-gt4histocr-1.0  (https://qurator-data.de/calamari-models/GT4HistOCR/2019-12-11T11_10+0100/model.tar.xz)
+  Calamari model trained with GT4HistOCR
+- zpd-fraktur19  (https://github.com/Calamari-OCR/calamari_models_experimental/releases/download/v0.0.1-pre1/c1_fraktur19-1.tar.gz)
+  Model trained on 19th century german fraktur
+- zpd-latin-script-hist-3  (https://github.com/Calamari-OCR/calamari_models_experimental/releases/download/v0.0.1-pre1/c1_latin-script-hist-3.tar.gz)
+  Model trained on historical latin-script texts
+
+ocrd-cis-ocropy-recognize
+- en-default.pyrnn.gz  (https://github.com/zuphilip/ocropy-models/raw/master/en-default.pyrnn.gz)
+  Default ocropy model
+- fraktur.pyrnn.gz  (https://github.com/zuphilip/ocropy-models/raw/master/fraktur.pyrnn.gz)
+  Default ocropy fraktur model
+- fraktur-jze.pyrnn.gz  (https://github.com/jze/ocropus-model_fraktur/raw/master/fraktur.pyrnn.gz)
+  ocropy fraktur model by github.com/jze
+- LatinHist.pyrnn.gz  (https://github.com/chreul/OCR_Testdata_EarlyPrintedBooks/raw/master/LatinHist-98000.pyrnn.gz)
+  ocropy historical latin model by github.com/chreul
+
+ocrd-sbb-binarize
+- default-2021-03-09  (https://github.com/qurator-spk/sbb_binarization/releases/download/v0.0.11/saved_model_2021_03_09.zip)
+  updated default models provided by github.com/qurator-spk (SavedModel format)
+- default  (https://github.com/qurator-spk/sbb_binarization/releases/download/v0.0.11/saved_model_2020_01_16.zip)
+  default models provided by github.com/qurator-spk (SavedModel format)
+
+ocrd-tesserocr-recognize
+- configs  (https://github.com/tesseract-ocr/tesseract/archive/main.tar.gz)
+  Tesseract configs (parameter sets) for use with the standalone tesseract CLI
+- Latin.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/script/Latin.traineddata)
+  Tesseract LSTM model for contemporary and historical Latin script
+- Fraktur.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/script/Fraktur.traineddata)
+  Tesseract LSTM model for historical Latin script with Fraktur typesetting
+- frk.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/frk.traineddata)
+  Tesseract LSTM model for historical (Fraktur typesetting and letterpress printing) German
+- deu.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/deu.traineddata)
+  Tesseract LSTM model for contemporary (computer typesetting and offset printing) German
+- eng.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/eng.traineddata)
+  Tesseract LSTM model for contemporary (computer typesetting and offset printing) English
+- osd.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/osd.traineddata)
+  Tesseract legacy model for orientation and script detection
+- equ.traineddata  (https://github.com/tesseract-ocr/tessdata_fast/raw/main/equ.traineddata)
+  Tesseract legacy model for mathematical equations
+- frak2021.traineddata  (https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/frak2021/tessdata_best/frak2021-0.905.traineddata)
+  Tesseract LSTM model based on Austrian National Library newspaper data
+- ONB.traineddata  (https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/ONB/tessdata_best/ONB_1.195_300718_989100.traineddata)
+  Tesseract LSTM model based on Austrian National Library newspaper data
+- Fraktur_GT4HistOCR.traineddata  (https://ub-backup.bib.uni-mannheim.de/~stweil/ocrd-train/data/Fraktur_5000000/tessdata_fast/Fraktur_50000000.334_450937.traineddata)
+  Tesseract LSTM model trained on GT4HistOCR
+
+ocrd-kraken-segment
+- blla.mlmodel  (https://github.com/mittagessen/kraken/raw/main/kraken/blla.mlmodel)
+  Pretrained baseline segmentation model
+
+ocrd-anybaseocr-layout-analysis
+- mapping_densenet.pickle  (https://s3.gwdg.de/ocr-d/models/dfki/layoutAnalysis/mapping_densenet.pickle)
+  mapping model for anybaseocr
+- structure_analysis  (https://s3.gwdg.de/ocr-d/models/structure_analysis.tar.gz)
+  structure analysis model for anybaseocr
+
+ocrd-eynollah-segment
+- default  (https://qurator-data.de/eynollah/2021-04-25/SavedModel.tar.gz)
+  models for eynollah (TensorFlow format)
+
+ocrd-detectron2-segment
+- Math_R_50_FPN_3x.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/Math_R_50_FPN_3x.pth)
+  MathFormulaDetection via LayoutParser R50-FPN weights
+- Math_R_50_FPN_3x.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/Math_R_50_FPN_3x.yaml)
+  MathFormulaDetection via LayoutParser R50-FPN config
+- NewspaperNavigator_R_50_PFPN_3x.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/NewspaperNavigator_R_50_PFPN_3x.pth)
+  NewspaperNavigator via LayoutParser R50-PanopticFPN weights
+- NewspaperNavigator_R_50_PFPN_3x.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/NewspaperNavigator_R_50_PFPN_3x.yaml)
+  NewspaperNavigator via LayoutParser R50-PanopticFPN config
+- DocBank_X101.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/DocBank_X101.pth)
+  DocBank via LayoutLM X101-FPN config
+- DocBank_X101.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/DocBank_X101.yaml)
+  DocBank via LayoutLM X101-FPN config
+- PRImALayout_R50.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PRImALayout_R50.pth)
+  PRImALayout via LayoutLM R50-FPN weights
+- PRImALayout_R50.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PRImALayout_R50.yaml)
+  PRImALayout via LayoutLM R50-FPN config
+- Jambo-sudo_X101.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/Jambo-sudo_X101.pth)
+  Modern Magazines via Jambo-sudo X101-FPN (pre-trained on PubLayNet, fine-tuned on 500 p. 20th cent. magazines) weights
+- Jambo-sudo_X101.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/Jambo-sudo_X101.yaml)
+  Modern Magazines via Jambo-sudo X101-FPN (pre-trained on PubLayNet, fine-tuned on 500 p. 20th cent. magazines) config
+- PubLayNet_R_101_FPN_3x_JPLeoRX.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_101_FPN_3x_JPLeoRX.pth)
+  PubLayNet via JPLeoRX R101-FPN weights
+- PubLayNet_R_101_FPN_3x_JPLeoRX.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_101_FPN_3x_JPLeoRX.yaml)
+  PubLayNet via JPLeoRX R101-FPN config
+- PubLayNet_R_50_FPN_3x_JPLeoRX.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_50_FPN_3x_JPLeoRX.pth)
+  PubLayNet via JPLeoRX R50-FPN weights
+- PubLayNet_R_50_FPN_3x_JPLeoRX.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_50_FPN_3x_JPLeoRX.yaml)
+  PubLayNet via JPLeoRX R50-FPN config
+- PubLayNet_X_101_32x8d_FPN_3x.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_X_101_32x8d_FPN_3x.pth)
+  PubLayNet via hpanwar08 X101-FPN weights
+- PubLayNet_X_101_32x8d_FPN_3x.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_X_101_32x8d_FPN_3x.yaml)
+  PubLayNet via hpanwar08 X101-FPN config
+- PubLayNet_R_101_FPN_3x.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_101_FPN_3x.pth)
+  PubLayNet via hpanwar08 R101-FPN weights
+- PubLayNet_R_101_FPN_3x.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_101_FPN_3x.yaml)
+  PubLayNet via hpanwar08 R101-FPN config
+- PubLayNet_R_50_FPN_3x.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_50_FPN_3x.pth)
+  PubLayNet via hpanwar08 R50-FPN weights
+- PubLayNet_R_50_FPN_3x.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/PubLayNet_R_50_FPN_3x.yaml)
+  PubLayNet via hpanwar08 R50-FPN config
+- TableBank_X152_Psarpei.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/TableBank_X152_Psarpei.pth)
+  TableBank via Psarpei X152-FPN weights
+- TableBank_X152_Psarpei.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/TableBank_X152_Psarpei.yaml)
+  TableBank via Psarpei X152-FPN config
+- TableBank_X152.pth  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/TableBank_X152.pth)
+  TableBank via LayoutLM X152-FPN weights
+- TableBank_X152.yaml  (https://github.com/bertsky/ocrd_detectron2/releases/download/v0.1.7/TableBank_X152.yaml)
+  TableBank via LayoutLM X152-FPN config
+
+ocrd-kraken-recognize
+- en_best.mlmodel  (https://zenodo.org/record/2577813/files/en_best.mlmodel?download=1)
+  This model has been trained on a large corpus of modern printed English text augmented with ~10000 lines of historical pages
+- typewriter.mlmodel  (https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/kraken/typewriter/typewriter.mlmodel)
+  20th century typewriter http://idb.ub.uni-tuebingen.de/opendigi/walz_1976, pretrained on austriannewspapers.mlmodel
+- luther.mlmodel  (https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/kraken/digi-gt/luther_best.mlmodel)
+  16th century German Gothic; https://github.com/UB-Mannheim/digi-gt/wiki/Training
+- digitue.mlmodel  (https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/kraken/digitue-gt/digitue_best.mlmodel)
+  mostly 19th century German Fraktur; https://github.com/UB-Mannheim/digitue-gt/wiki/Training-with-Kraken
+- reichsanzeiger.mlmodel  (https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/kraken/reichsanzeiger-gt/reichsanzeiger_best.mlmodel)
+  19th and 20th century German Fraktur ('Deutscher Reichsanzeiger'); https://github.com/UB-Mannheim/reichsanzeiger-gt/wiki/Training-with-Kraken
+- austriannewspapers.mlmodel  (https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/kraken/austriannewspapers/20220520/austriannewspapers_best.mlmodel)
+  19th and 20th century German Fraktur; https://github.com/UB-Mannheim/AustrianNewspapers/wiki/Training-with-Kraken
+
+ocrd-anybaseocr-tiseg
+- seg_model  (https://s3.gwdg.de/ocr-d/models/seg_model.tar.gz)
+  text image segmentation model for anybaseocr
+
+ocrd-anybaseocr-dewarp
+- latest_net_G.pth  (https://s3.gwdg.de/ocr-d/models/dfki/dewarping/latest_net_G.pth)
+  dewarping model for anybaseocr
+
