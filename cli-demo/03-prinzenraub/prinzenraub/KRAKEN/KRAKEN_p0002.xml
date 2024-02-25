@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="KRAKEN_p0002">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.63.0</pc:Creator>
+        <pc:Created>2024-02-25T20:43:12</pc:Created>
+        <pc:LastChange>2024-02-25T20:43:12</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels>
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="0" type="win-size"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="True" type="shrink_polygons"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="True" type="overwrite_segments"/>
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="none" type="textequiv_level"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-segment"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="qurator-gt4histocr-1.0" type="checkpoint_dir"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="1.0.6 (calamari 1.0.6, tensorflow 2.13.1)" type="ocrd-calamari-recognize"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/0002.png" imageWidth="1802" imageHeight="2967" type="content">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_p0002-BIN_sauvola-ms-split.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-SEG/OCR-D-SEG_p0002.IMG-BIN.png" comments="binarized,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0001" orientation="0." type="caption" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="530,1733 502,1733 502,1736 450,1736 448,1734 448,1709 382,1709 382,1883 448,1883 448,1880 504,1880 505,1881 509,1877 538,1877 538,1875 565,1875 565,1876 609,1876 609,1738 645,1738 645,1899 817,1899 817,1876 878,1876 879,1876 926,1876 926,1872 970,1872 981,1872 1021,1872 1021,1875 1080,1875 1080,1878 1159,1878 1159,1788 1171,1788 1171,1906 1215,1906 1215,1784 1175,1784 1171,1780 1159,1780 1159,1729 1084,1729 1080,1725 1077,1728 1027,1728 1027,1708 972,1708 970,1706 966,1710 922,1710 922,1722 918,1726 879,1726 878,1725 874,1729 817,1729 817,1696 645,1696 645,1730 609,1730 605,1734 574,1734 569,1734 565,1730 561,1734 538,1734 538,1733 536,1733 533,1730"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:Coords points="530,1733 502,1733 502,1736 450,1736 448,1734 448,1709 382,1709 382,1883 448,1883 448,1880 504,1880 505,1881 509,1877 538,1877 538,1875 565,1875 565,1876 609,1876 609,1738 645,1738 645,1899 817,1899 817,1876 878,1876 879,1876 926,1876 926,1872 970,1872 981,1872 1021,1872 1021,1875 1080,1875 1080,1878 1159,1878 1159,1788 1171,1788 1171,1906 1215,1906 1215,1784 1175,1784 1171,1780 1159,1780 1159,1729 1084,1729 1080,1725 1077,1728 1027,1728 1027,1708 972,1708 970,1706 966,1710 922,1710 922,1722 918,1726 879,1726 878,1725 874,1729 817,1729 817,1696 645,1696 645,1730 609,1730 605,1734 574,1734 569,1734 565,1730 561,1734 538,1734 538,1733 536,1733 533,1730"/>
+                <pc:TextEquiv conf="0.84835547208786">
+                    <pc:Unicode>den riten,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>den riten,</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0000" orientation="0.">
+            <pc:Coords points="0,442 1552,442 1552,1701 0,1701"/>
+        </pc:ImageRegion>
+    </pc:Page>
+</pc:PcGts>
