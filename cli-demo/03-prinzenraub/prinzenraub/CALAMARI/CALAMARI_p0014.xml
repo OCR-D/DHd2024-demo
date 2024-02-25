@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="CALAMARI_p0014">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.63.0</pc:Creator>
+        <pc:Created>2024-02-25T19:31:25</pc:Created>
+        <pc:LastChange>2024-02-25T19:31:25</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels>
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="0" type="win-size"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/despeckling" value="ocrd-skimage-denoise">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.0" type="protect"/>
+                <pc:Label value="1.0" type="maxsize"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.8" type="ocrd-skimage-denoise"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/deskewing" value="ocrd-tesserocr-deskew">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="operation_level"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="1.5" type="min_orientation_confidence"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-deskew"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="True" type="overwrite_segments"/>
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="none" type="textequiv_level"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-segment"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/dewarping" value="ocrd-cis-ocropy-dewarp">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4.0" type="range"/>
+                <pc:Label value="1.0" type="smoothness"/>
+                <pc:Label value="0.05" type="max_neighbour"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-dewarp"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="qurator-gt4histocr-1.0" type="checkpoint_dir"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="1.0.6 (calamari 1.0.6, tensorflow 2.13.1)" type="ocrd-calamari-recognize"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/0014.png" imageWidth="1843" imageHeight="2929" orientation="0.104535524978729" type="content" primaryScript="Latf - Latin (Fraktur variant)" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_p0014-BIN_sauvola-ms-split.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE/OCR-D-BIN-DENOISE_p0014.IMG-DEN.png" comments="binarized,despeckled"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE-DESKEW/OCR-D-BIN-DENOISE-DESKEW_p0014.IMG-DESKEW.png" comments="binarized,despeckled,deskewed"/>
+        <pc:AlternativeImage filename="OCR-D-SEG/OCR-D-SEG_p0014.IMG-BIN.png" comments="binarized,despeckled,deskewed,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="0.34989318220147" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="175,258 1684,255 1685,682 176,685"/>
+            <pc:TextLine id="region0000_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0000_region0000_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="175,258 175,366 1684,364 1684,255"/>
+                <pc:TextEquiv conf="0.9768106341362">
+                    <pc:Unicode>halten duͤrfftez wenn es der guͤtige Leſer anders</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0000_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0000_region0000_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="183,349 1509,346 1509,453 183,456"/>
+                <pc:TextEquiv conf="0.614340722560883">
+                    <pc:Unicode>erluhen drrid..</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0000_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0000_region0000_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="190,421 1632,418 1633,530 191,533"/>
+                <pc:TextEquiv conf="0.772345840930939">
+                    <pc:Unicode>Bielt yetifhen Begeiſterugen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0000_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0000_region0000_line0003.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="196,499 1630,496 1630,603 196,606"/>
+                <pc:TextEquiv conf="0.811280190944672">
+                    <pc:Unicode>ud weitgefhhte oder alluangſtliche uid müh</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0000_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0000_region0000_line0004.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1635,682 1635,571 197,574 197,684 622,684"/>
+                <pc:TextEquiv conf="0.641470730304718">
+                    <pc:Unicode>ine eeſretergeen habe darien ni glhül</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>halten duͤrfftez wenn es der guͤtige Leſer anders
+erluhen drrid..
+Bielt yetifhen Begeiſterugen
+ud weitgefhhte oder alluangſtliche uid müh
+ine eeſretergeen habe darien ni glhül</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="0.34989318220147" type="heading" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="128,654 1632,651 1632,760 128,763"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0001_region0001_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="128,654 1632,651 1632,760 128,763"/>
+                <pc:TextEquiv conf="0.771192491054535">
+                    <pc:Unicode>anbrigen rnogen dait die hiſtoriſche ähihäi</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>anbrigen rnogen dait die hiſtoriſche ähihäi</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0.34989318220147" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="125,733 1696,730 1699,2648 128,2651"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="191,733 191,840 1628,837 1628,730 898,731"/>
+                <pc:TextEquiv conf="0.699823677539825">
+                    <pc:Unicode>uuer pr gleichen buntes Laub/ Bſühnn</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1632,912 1632,806 125,808 125,914"/>
+                <pc:TextEquiv conf="0.710250437259674">
+                    <pc:Unicode>Wece ncht ſo gar ſehr verſtectet üunm ü ie ve</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="197,885 1605,882 1605,980 197,983"/>
+                <pc:TextEquiv conf="0.959273040294647">
+                    <pc:Unicode>reits oben gedacht worden ·</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0003.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="189,963 1630,960 1631,1069 190,1072"/>
+                <pc:TextEquiv conf="0.921033799648285">
+                    <pc:Unicode>ee abe gleich in dem erſten Buche, eine</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0004.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="192,1041 1627,1038 1627,1147 192,1150"/>
+                <pc:TextEquiv conf="0.652947068214417">
+                    <pc:Unicode>teiy hnit eingeicct ſüisi</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0005.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="196,1115 1630,1112 1630,1229 196,1232"/>
+                <pc:TextEquiv conf="0.554022789001465">
+                    <pc:Unicode>eeendet herghmhci riüöcdni</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0006.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="197,1193 1628,1190 1628,1298 197,1301"/>
+                <pc:TextEquiv conf="0.605290234088898">
+                    <pc:Unicode>etus Virgis Taf i om</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0007.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="199,1268 1626,1265 1626,1391 199,1394"/>
+                <pc:TextEquiv conf="0.377742826938629">
+                    <pc:Unicode>eu enXele ſtt iüit öiinmcc riü</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0008.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="152,1344 1626,1341 1626,1500 152,1503"/>
+                <pc:TextEquiv conf="0.49080303311348">
+                    <pc:Unicode>beeert hic öit i iü</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0009">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0009.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="194,1439 1368,1437 1368,1500 194,1502"/>
+                <pc:TextEquiv conf="0.933704376220703">
+                    <pc:Unicode>achtete</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0010">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0010.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="280,1497 1629,1495 1630,1601 281,1603"/>
+                <pc:TextEquiv conf="0.942044913768768">
+                    <pc:Unicode>einn man aber dieſelben finſtern und aber⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0011">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0011.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="208,1569 1630,1566 1630,1680 208,1683"/>
+                <pc:TextEquiv conf="0.463197529315948">
+                    <pc:Unicode>ei hiſnnnZeiten wriijäldöüei</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0012">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0012.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="206,1647 1632,1644 1632,1748 206,1751"/>
+                <pc:TextEquiv conf="0.68484103679657">
+                    <pc:Unicode>echehei, vetracten vil a ifili</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0013">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0013.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="203,1721 1627,1718 1627,1826 203,1829"/>
+                <pc:TextEquiv conf="0.723505973815918">
+                    <pc:Unicode>Euig ziehit ii beuftüühi</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0014">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0014.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="209,1806 1654,1803 1654,1903 209,1906"/>
+                <pc:TextEquiv conf="0.918935298919678">
+                    <pc:Unicode>eu egen allerhand Zaubereyen Gaückeleyen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0015">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0015.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="207,1878 1629,1875 1629,1978 207,1981"/>
+                <pc:TextEquiv conf="0.823120653629303">
+                    <pc:Unicode>n eiſter Erſcheinuigen, geweſen  wie utr</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0016">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0016.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="210,1954 1628,1951 1628,2057 210,2060"/>
+                <pc:TextEquiv conf="0.816299736499786">
+                    <pc:Unicode>en aus denei abentheuerlichen Erzahlngen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0017">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0017.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="183,2022 1695,2019 1696,2127 184,2130"/>
+                <pc:TextEquiv conf="0.7125244140625">
+                    <pc:Unicode>tunerhelet wiiche vön dm Hicc cki</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0018">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0018.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="207,2104 1632,2101 1633,2200 208,2203"/>
+                <pc:TextEquiv conf="0.908617854118347">
+                    <pc:Unicode>o deſſen beyden Toͤchtern, der ibůſ ud a</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0019">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0019.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="219,2171 1635,2168 1635,2276 219,2279"/>
+                <pc:TextEquiv conf="0.661638855934143">
+                    <pc:Unicode>ſa, die inceſnm c/⸗Haiübtiü günic</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0020">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0020.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="221,2246 1637,2243 1637,2355 221,2358"/>
+                <pc:TextEquiv conf="0.524463474750519">
+                    <pc:Unicode>ſolen;icr in öa äecih ü äi</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0021">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0021.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="271,2335 1633,2332 1633,2426 271,2429"/>
+                <pc:TextEquiv conf="0.989763557910919">
+                    <pc:Unicode>eiter von der Libuſſen weiſſen Zauberzelter und</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0022">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0022.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="215,2397 1633,2394 1633,2509 215,2512"/>
+                <pc:TextEquiv conf="0.639988005161285">
+                    <pc:Unicode>eu iitettroh mar</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0023">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0023.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="182,2473 182,2585 1698,2582 1698,2470"/>
+                <pc:TextEquiv conf="0.659471929073334">
+                    <pc:Unicode>eiſett/ iigleche vp ren phcctgin Her</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0024">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0002_region0002_line0024.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1636,2648 1636,2544 213,2547 213,2650 1030,2649"/>
+                <pc:TextEquiv conf="0.865877211093903">
+                    <pc:Unicode>Tamen und Geſpenſter Verſamnngn auf dem</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>uuer pr gleichen buntes Laub/ Bſühnn
+Wece ncht ſo gar ſehr verſtectet üunm ü ie ve
+reits oben gedacht worden ·
+ee abe gleich in dem erſten Buche, eine
+teiy hnit eingeicct ſüisi
+eeendet herghmhci riüöcdni
+etus Virgis Taf i om
+eu enXele ſtt iüit öiinmcc riü
+beeert hic öit i iü
+achtete
+einn man aber dieſelben finſtern und aber⸗
+ei hiſnnnZeiten wriijäldöüei
+echehei, vetracten vil a ifili
+Euig ziehit ii beuftüühi
+eu egen allerhand Zaubereyen Gaückeleyen
+n eiſter Erſcheinuigen, geweſen  wie utr
+en aus denei abentheuerlichen Erzahlngen
+tunerhelet wiiche vön dm Hicc cki
+o deſſen beyden Toͤchtern, der ibůſ ud a
+ſa, die inceſnm c/⸗Haiübtiü günic
+ſolen;icr in öa äecih ü äi
+eiter von der Libuſſen weiſſen Zauberzelter und
+eu iitettroh mar
+eiſett/ iigleche vp ren phcctgin Her
+Tamen und Geſpenſter Verſamnngn auf dem</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="0.34989318220147" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1523,2627 1643,2627 1644,2698 1524,2698"/>
+            <pc:TextLine id="region0003_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0014_region0003_region0003_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1523,2627 1643,2627 1644,2698 1524,2698"/>
+                <pc:TextEquiv conf="0.807632744312286">
+                    <pc:Unicode>be⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>be⸗</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+    </pc:Page>
+</pc:PcGts>

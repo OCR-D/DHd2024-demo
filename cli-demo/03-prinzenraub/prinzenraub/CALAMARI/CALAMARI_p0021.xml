@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="CALAMARI_p0021">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.63.0</pc:Creator>
+        <pc:Created>2024-02-25T19:31:48</pc:Created>
+        <pc:LastChange>2024-02-25T19:31:48</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels>
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="0" type="win-size"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/despeckling" value="ocrd-skimage-denoise">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0.0" type="protect"/>
+                <pc:Label value="1.0" type="maxsize"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.8" type="ocrd-skimage-denoise"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/deskewing" value="ocrd-tesserocr-deskew">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="operation_level"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="1.5" type="min_orientation_confidence"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-deskew"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="True" type="overwrite_segments"/>
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="none" type="textequiv_level"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-segment"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/dewarping" value="ocrd-cis-ocropy-dewarp">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4.0" type="range"/>
+                <pc:Label value="1.0" type="smoothness"/>
+                <pc:Label value="0.05" type="max_neighbour"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.1.5" type="ocrd-cis-ocropy-dewarp"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="qurator-gt4histocr-1.0" type="checkpoint_dir"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="1.0.6 (calamari 1.0.6, tensorflow 2.13.1)" type="ocrd-calamari-recognize"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/0021.png" imageWidth="2114" imageHeight="3200" orientation="-0.235414315853831" type="content" primaryScript="Latf - Latin (Fraktur variant)" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_p0021-BIN_sauvola-ms-split.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE/OCR-D-BIN-DENOISE_p0021.IMG-DEN.png" comments="binarized,despeckled"/>
+        <pc:AlternativeImage filename="OCR-D-BIN-DENOISE-DESKEW/OCR-D-BIN-DENOISE-DESKEW_p0021.IMG-DESKEW.png" comments="binarized,despeckled,deskewed"/>
+        <pc:AlternativeImage filename="OCR-D-SEG/OCR-D-SEG_p0021.IMG-BIN.png" comments="binarized,despeckled,deskewed,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="6" regionRef="region0006"/>
+                <pc:RegionRefIndexed index="9" regionRef="region0009"/>
+                <pc:RegionRefIndexed index="13" regionRef="region0013"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0001" orientation="89.685712840735732" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1632,2 1683,2 1683,103 1632,103"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0001_region0001_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1632,2 1683,2 1683,103 1632,103"/>
+                <pc:TextEquiv conf="0.292255014181137">
+                    <pc:Unicode>i</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>i</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="-0.314287159264268" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="258,218 2015,226 2010,1448 253,1440"/>
+            <pc:TextLine id="region0003_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="396,219 396,322 1739,327 1739,224 843,220"/>
+                <pc:TextEquiv conf="0.922588765621185">
+                    <pc:Unicode>Vorrede.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="333,309 1965,315 1964,408 332,402"/>
+                <pc:TextEquiv conf="0.974633276462555">
+                    <pc:Unicode>de Philoſophie verſtehet, indem er die alten gelehrten Schrif⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="2014,388 360,381 360,474 2013,480 2014,470"/>
+                <pc:TextEquiv conf="0.976439833641052">
+                    <pc:Unicode>ten der Griechen und Lateiner fleißiger durchleſen als ſie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0003.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="344,458 1991,464 1991,555 344,549"/>
+                <pc:TextEquiv conf="0.986883938312531">
+                    <pc:Unicode>mancher ſonſt geſehen/ oder nur nennen hoͤren. Dieſer wer⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0004.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="360,531 1940,537 1939,631 359,625"/>
+                <pc:TextEquiv conf="0.979661703109741">
+                    <pc:Unicode>theſte Freund hat weder Zeit, Muͤhe noch Koſten geſpahret,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0005.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="346,607 1936,613 1936,713 345,707"/>
+                <pc:TextEquiv conf="0.954635322093964">
+                    <pc:Unicode>mir alerhand kleine und ſehr ſelten vorkommende Schrifften,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0006.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="354,681 1989,687 1989,778 354,772"/>
+                <pc:TextEquiv conf="0.985286951065063">
+                    <pc:Unicode>die von dieſem Prinzenraube handeln / guͤtig zu verſchäffen,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0007.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="340,755 1933,761 1932,865 339,859"/>
+                <pc:TextEquiv conf="0.916449904441833">
+                    <pc:Unicode>welche mir bey denen Anmerckingennuͤliche Dienſte geihan</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0008.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="352,828 1964,834 1963,934 351,928"/>
+                <pc:TextEquiv conf="0.978531837463379">
+                    <pc:Unicode>haben. Vor dieſes neue Zeichen ſeiner guͤtigen Zuneigung</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0009">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0009.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="349,907 1937,913 1937,1004 349,998"/>
+                <pc:TextEquiv conf="0.977594316005707">
+                    <pc:Unicode>gegen mich/ ſage ich ihm nicht allein hiermit oͤffentlich noch⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0010">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0010.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="339,982 1994,989 1994,1083 339,1076"/>
+                <pc:TextEquiv conf="0.989776968955994">
+                    <pc:Unicode>mahls ergebenſten Danck wie ich ſchon in dem Wercke</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0011">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0011.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="348,1059 1937,1065 1936,1154 347,1148"/>
+                <pc:TextEquiv conf="0.97528350353241">
+                    <pc:Unicode>felbſten unten pag. 128. gebuͤhrend abgeſtattet; ſondern ich</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0012">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0012.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="347,1130 1993,1137 1993,1234 347,1227"/>
+                <pc:TextEquiv conf="0.946613729000092">
+                    <pc:Unicode>werde auch bald an einem andernOrte ausfuͤhrlicher zeigen/</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0013">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0013.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="254,1205 1928,1212 1928,1303 254,1296"/>
+                <pc:TextEquiv conf="0.993622362613678">
+                    <pc:Unicode>wie hoch ich dieſes fuͤrtrefflichen Mannes Gelehrſamkeit ach⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0014">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0014.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="273,1281 1941,1288 1940,1376 272,1369"/>
+                <pc:TextEquiv conf="0.996048867702484">
+                    <pc:Unicode>te, und wie ſonderbar ich dieſes wahren Freundes Wohlge⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0003_line0015">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0003_region0003_line0015.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1842,1447 1842,1362 341,1356 341,1440 1419,1445"/>
+                <pc:TextEquiv conf="0.98607337474823">
+                    <pc:Unicode>wogenheit nach Verdienſt, zu ſchaͤtzen wiſſe.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Vorrede.
+de Philoſophie verſtehet, indem er die alten gelehrten Schrif⸗
+ten der Griechen und Lateiner fleißiger durchleſen als ſie
+mancher ſonſt geſehen/ oder nur nennen hoͤren. Dieſer wer⸗
+theſte Freund hat weder Zeit, Muͤhe noch Koſten geſpahret,
+mir alerhand kleine und ſehr ſelten vorkommende Schrifften,
+die von dieſem Prinzenraube handeln / guͤtig zu verſchäffen,
+welche mir bey denen Anmerckingennuͤliche Dienſte geihan
+haben. Vor dieſes neue Zeichen ſeiner guͤtigen Zuneigung
+gegen mich/ ſage ich ihm nicht allein hiermit oͤffentlich noch⸗
+mahls ergebenſten Danck wie ich ſchon in dem Wercke
+felbſten unten pag. 128. gebuͤhrend abgeſtattet; ſondern ich
+werde auch bald an einem andernOrte ausfuͤhrlicher zeigen/
+wie hoch ich dieſes fuͤrtrefflichen Mannes Gelehrſamkeit ach⸗
+te, und wie ſonderbar ich dieſes wahren Freundes Wohlge⸗
+wogenheit nach Verdienſt, zu ſchaͤtzen wiſſe.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0005" orientation="-0.314287159264268" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="279,1426 1999,1434 1996,2192 276,2184"/>
+            <pc:TextLine id="region0005_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="355,1427 355,1518 1998,1524 1999,1434"/>
+                <pc:TextEquiv conf="0.988445162773132">
+                    <pc:Unicode>Noch iſt allhier des Herrn Verlegers beſondere Sorg⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="343,1499 1932,1505 1931,1599 342,1593"/>
+                <pc:TextEquiv conf="0.970689296722412">
+                    <pc:Unicode>falt zu ruͤhmen, als welcher nach ſeinem laͤngſthekandten</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="343,1576 1969,1582 1968,1672 342,1666"/>
+                <pc:TextEquiv conf="0.972801804542542">
+                    <pc:Unicode>Vorzige in ſauberem Verlage; ſo wohl zu Anſchaffung groſ⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0003.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="278,1738 1931,1745 1931,1657 278,1650 278,1678"/>
+                <pc:TextEquiv conf="0.986423969268799">
+                    <pc:Unicode>ſen/ weiſſen und recht feinen Papiers, und eines neuen und</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0004.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="291,1725 1933,1731 1933,1819 291,1813"/>
+                <pc:TextEquiv conf="0.974991679191589">
+                    <pc:Unicode>ſcharffen Drucks; als auch zierlich ausgearbeiteter Kupfer⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0005.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="340,1794 1950,1800 1949,1894 339,1888"/>
+                <pc:TextEquiv conf="0.977836608886719">
+                    <pc:Unicode>ſtiche,/ allen moͤglichen Fleiß und alle erforderlichen Koſten</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0006.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="336,1867 1930,1873 1930,1978 336,1972"/>
+                <pc:TextEquiv conf="0.853514075279236">
+                    <pc:Unicode>gern indwilligagewandt damit ſolchergeſtaltdieſes WVeꝛck</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0007.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="330,1943 1889,1949 1889,2043 330,2037"/>
+                <pc:TextEquiv conf="0.965373516082764">
+                    <pc:Unicode>praͤchtig und anſehnlich im Druck erſcheinen moͤchte.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0008.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="338,2017 1989,2024 1988,2113 337,2106"/>
+                <pc:TextEquiv conf="0.995369017124176">
+                    <pc:Unicode>Nun auch von der Veranlaſſung zu dieſem Gedichte,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0005_line0009">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0005_region0005_line0009.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1972,2191 1972,2095 337,2089 337,2184 1066,2187"/>
+                <pc:TextEquiv conf="0.990631878376007">
+                    <pc:Unicode>etwas weniges zu gedencken; ſo iſt dieſelbe eigentlich folgen⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Noch iſt allhier des Herrn Verlegers beſondere Sorg⸗
+falt zu ruͤhmen, als welcher nach ſeinem laͤngſthekandten
+Vorzige in ſauberem Verlage; ſo wohl zu Anſchaffung groſ⸗
+ſen/ weiſſen und recht feinen Papiers, und eines neuen und
+ſcharffen Drucks; als auch zierlich ausgearbeiteter Kupfer⸗
+ſtiche,/ allen moͤglichen Fleiß und alle erforderlichen Koſten
+gern indwilligagewandt damit ſolchergeſtaltdieſes WVeꝛck
+praͤchtig und anſehnlich im Druck erſcheinen moͤchte.
+Nun auch von der Veranlaſſung zu dieſem Gedichte,
+etwas weniges zu gedencken; ſo iſt dieſelbe eigentlich folgen⸗</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0006" orientation="-0.314287159264268" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="321,2166 2096,2173 2092,3076 317,3069"/>
+            <pc:TextLine id="region0006_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="338,2263 1942,2269 1942,2172 338,2166"/>
+                <pc:TextEquiv conf="0.912317335605621">
+                    <pc:Unicode>de geweſen: Jn abgewichenen Jahre/ erinnerte mich aber⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0001">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0001.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="337,2238 1930,2244 1929,2336 336,2330"/>
+                <pc:TextEquiv conf="0.9799884557724">
+                    <pc:Unicode>mahl ein hoher Goͤnner/die dem Trileriſchen Geſchlechte ſo</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0002">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0002.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="329,2311 1996,2318 1996,2413 328,2406"/>
+                <pc:TextEquiv conf="0.95056939125061">
+                    <pc:Unicode>ruͤhmliche Geſchichte von Cuntz von Kauffungen / in Verſen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0003">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0003.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="320,2475 1990,2482 1990,2394 320,2387 320,2391"/>
+                <pc:TextEquiv conf="0.98172265291214">
+                    <pc:Unicode>zu beſchreiben / welcher mich allbereit vor zwanzig Jahren zu</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0004">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0004.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="333,2460 1918,2466 1917,2561 333,2555"/>
+                <pc:TextEquiv conf="0.990098774433136">
+                    <pc:Unicode>dieſer Arbeit ermahnet hatte wie oben ſchon gedacht worden.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0005">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0005.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="397,2532 396,2625 2093,2631 2094,2538"/>
+                <pc:TextEquiv conf="0.987338960170746">
+                    <pc:Unicode>Jndem ich nun bey mir anſtehe/ ob ich ein ſo weitlaͤufftiges</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0006">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0006.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="329,2607 2092,2614 2092,2701 329,2694"/>
+                <pc:TextEquiv conf="0.980442404747009">
+                    <pc:Unicode>Werck bey zunehmenden Jahren , und abnehmenden Ge⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0007">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0007.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="329,2678 2092,2685 2092,2775 329,2768"/>
+                <pc:TextEquiv conf="0.949714064598083">
+                    <pc:Unicode>muͤths⸗ und Leibes ⸗Kraͤfften, nebſt Mangel der behoͤrigen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0008">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0008.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="329,2751 1928,2757 1927,2847 328,2841"/>
+                <pc:TextEquiv conf="0.980284035205841">
+                    <pc:Unicode>Müſſe, unternehmen ſolle? uͤberſendet mir zu gleicher Zeit,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0009">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0009.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="327,2826 1985,2832 1985,2924 327,2918"/>
+                <pc:TextEquiv conf="0.994000911712646">
+                    <pc:Unicode>ein anderer vornehmer Goͤnner und groſſer Freund eine ge⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0010">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0010.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="325,2897 1983,2903 1983,3002 325,2996"/>
+                <pc:TextEquiv conf="0.984867572784424">
+                    <pc:Unicode>wiſſe ausfuͤhrliche gedruckte Beſchreibung von dem Prin</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0006_line0011">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0006_region0006_line0011.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="2012,2986 338,2979 337,3069 668,3070 2011,3075"/>
+                <pc:TextEquiv conf="0.846168696880341">
+                    <pc:Unicode>zen⸗</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>de geweſen: Jn abgewichenen Jahre/ erinnerte mich aber⸗
+mahl ein hoher Goͤnner/die dem Trileriſchen Geſchlechte ſo
+ruͤhmliche Geſchichte von Cuntz von Kauffungen / in Verſen
+zu beſchreiben / welcher mich allbereit vor zwanzig Jahren zu
+dieſer Arbeit ermahnet hatte wie oben ſchon gedacht worden.
+Jndem ich nun bey mir anſtehe/ ob ich ein ſo weitlaͤufftiges
+Werck bey zunehmenden Jahren , und abnehmenden Ge⸗
+muͤths⸗ und Leibes ⸗Kraͤfften, nebſt Mangel der behoͤrigen
+Müſſe, unternehmen ſolle? uͤberſendet mir zu gleicher Zeit,
+ein anderer vornehmer Goͤnner und groſſer Freund eine ge⸗
+wiſſe ausfuͤhrliche gedruckte Beſchreibung von dem Prin
+zen⸗</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0009" orientation="-0.314287159264268" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1951,1730 1982,1730 1982,1751 1951,1751"/>
+            <pc:TextLine id="region0009_line0000">
+                <pc:AlternativeImage filename="OCR-D-SEG-LINE-RESEG-DEWARP/OCR-D-SEG-LINE-RESEG-DEWARP_p0021_region0009_region0009_line0000.IMG-DEWARP.png" comments="binarized,despeckled,binarized,dewarped"/>
+                <pc:Coords points="1951,1730 1982,1730 1982,1751 1951,1751"/>
+                <pc:TextEquiv conf="0.">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0000" orientation="-0.314287159264268">
+            <pc:Coords points="667,25 1145,27 1145,0 667,0"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0002" orientation="-0.314287159264268">
+            <pc:Coords points="2040,0 2040,74 2114,74 2114,0"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0013" orientation="-0.314287159264268">
+            <pc:Coords points="253,0 0,0 0,3200 241,3200"/>
+        </pc:ImageRegion>
+        <pc:SeparatorRegion id="region0004">
+            <pc:Coords points="83,189 106,189 104,733 81,733"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0007">
+            <pc:Coords points="69,1256 83,1256 81,1612 67,1612"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0008">
+            <pc:Coords points="77,1346 88,1346 87,1667 76,1667"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0010">
+            <pc:Coords points="71,1908 83,1908 81,2376 69,2376"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0011">
+            <pc:Coords points="81,2296 93,2296 91,2760 79,2760"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0012">
+            <pc:Coords points="77,2296 92,2296 89,2825 74,2825"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>
