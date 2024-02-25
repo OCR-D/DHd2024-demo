@@ -27,10 +27,12 @@ eine Datei `prinzenraub-tei.xml` als Zieldatei, sowie die Dateigruppe, die wir
 als Quelle verwenden wollen als Paramter `PAGEXML` übergeben:
 
 ```sh
-java -jar saxon9he.jar                      \
-  -xsl:page2tei/page2tei-0.xsl              \
-  -s:../03-prinzenraub/prinzenraub/mets.xml \
-  -o:prinzenraub-tei.xml                    \
-  PAGEprogram=OCRD                          \
+java -jar saxon9he.jar                            \
+  -xsl:page2tei/page2tei-0.xsl                    \
+  -s:../03-prinzenraub/prinzenraub/mets.xml       \
+  -o:prinzenraub-tei.xml                          \
+  PAGEprogram=OCRD                                \
   PAGEXML=CALAMARI
 ```
+
+Das rudimentäre TEI ist in `prinzenraub-tei.xml`
