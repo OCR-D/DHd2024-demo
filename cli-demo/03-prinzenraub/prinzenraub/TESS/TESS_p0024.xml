@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="TESS_p0024">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 2.63.0</pc:Creator>
+        <pc:Created>2024-02-25T18:55:48.750342</pc:Created>
+        <pc:LastChange>2024-02-25T18:55:48.750342</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="region" type="segmentation_level"/>
+                <pc:Label value="word" type="textequiv_level"/>
+                <pc:Label value="frak2021" type="model"/>
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="0" type="padding"/>
+                <pc:Label value="False" type="overwrite_segments"/>
+                <pc:Label value="True" type="overwrite_text"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+                <pc:Label value="False" type="raw_lines"/>
+                <pc:Label value="" type="char_whitelist"/>
+                <pc:Label value="" type="char_blacklist"/>
+                <pc:Label value="" type="char_unblacklist"/>
+                <pc:Label value="{}" type="tesseract_parameters"/>
+                <pc:Label value="{}" type="xpath_parameters"/>
+                <pc:Label value="{}" type="xpath_model"/>
+                <pc:Label value="False" type="auto_model"/>
+                <pc:Label value="DEFAULT" type="oem"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.18.0 (tesseract 5.3.4)" type="ocrd-tesserocr-recognize"/>
+                <pc:Label value="2.63.0" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/0024.png" imageWidth="1795" imageHeight="2956">
+        <pc:AlternativeImage filename="TESS/TESS_p0024.IMG-BIN.png" comments=",binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="684,874 870,874 870,964 684,964"/>
+            <pc:TextLine id="region0000_line0000">
+                <pc:Coords points="684,874 870,874 870,964 684,964"/>
+                <pc:Word id="region0000_line0000_word0000">
+                    <pc:Coords points="684,874 870,874 870,964 684,964"/>
+                    <pc:TextEquiv conf="0.914305419921875">
+                        <pc:Unicode>Des</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.914305419921875">
+                    <pc:Unicode>Des</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.914305419921875">
+                <pc:Unicode>Des</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0001" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="48,1001 1637,1001 1637,1405 48,1405"/>
+            <pc:TextLine id="region0001_line0000">
+                <pc:Coords points="298,1001 1134,1001 1134,1156 298,1156"/>
+                <pc:Word id="region0001_line0000_word0000">
+                    <pc:Coords points="298,1001 1134,1001 1134,1156 298,1156"/>
+                    <pc:TextEquiv conf="0.840629806518555">
+                        <pc:Unicode>Baͤchſiſchen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.840629806518555">
+                    <pc:Unicode>Baͤchſiſchen</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0001_line0001">
+                <pc:Coords points="48,1207 1637,1207 1637,1405 48,1405"/>
+                <pc:Word id="region0001_line0001_word0000">
+                    <pc:Coords points="48,1207 1637,1207 1637,1405 48,1405"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>Prinzen⸗Raubes,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="1.">
+                    <pc:Unicode>Prinzen⸗Raubes,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.920314903259277">
+                <pc:Unicode>Baͤchſiſchen
+Prinzen⸗Raubes,</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0002" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="683,1455 922,1455 922,1647 683,1647"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:Coords points="683,1455 862,1455 862,1521 683,1521"/>
+                <pc:Word id="region0002_line0000_word0000">
+                    <pc:Coords points="683,1455 862,1455 862,1521 683,1521"/>
+                    <pc:TextEquiv conf="0.904341583251953">
+                        <pc:Unicode>oder</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.904341583251953">
+                    <pc:Unicode>oder</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0001">
+                <pc:Coords points="742,1563 922,1563 922,1647 742,1647"/>
+                <pc:Word id="region0002_line0001_word0000">
+                    <pc:Coords points="742,1563 844,1563 844,1647 742,1647"/>
+                    <pc:TextEquiv conf="0.9310205078125">
+                        <pc:Unicode>des</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0002_line0001_word0001">
+                    <pc:Coords points="918,1589 922,1589 922,1593 918,1593"/>
+                    <pc:TextEquiv conf="0.">
+                        <pc:Unicode>ö</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.96551025390625">
+                    <pc:Unicode>des ö</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.934925918579102">
+                <pc:Unicode>oder
+des ö</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0003" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="81,1575 1482,1575 1482,1831 81,1831"/>
+            <pc:TextLine id="region0003_line0000">
+                <pc:Coords points="81,1575 1482,1575 1482,1831 81,1831"/>
+                <pc:Word id="region0003_line0000_word0000">
+                    <pc:Coords points="81,1575 944,1575 944,1830 81,1830"/>
+                    <pc:TextEquiv conf="0.704644546508789">
+                        <pc:Unicode>Wohlberdienten</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0003_line0000_word0001">
+                    <pc:Coords points="1005,1591 1482,1591 1482,1831 1005,1831"/>
+                    <pc:TextEquiv conf="0.807248229980469">
+                        <pc:Unicode>Rohlers</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.755946388244629">
+                    <pc:Unicode>Wohlberdienten Rohlers</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.755946388244629">
+                <pc:Unicode>Wohlberdienten Rohlers</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0004" orientation="0." readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="487,1889 1059,1889 1059,1988 487,1988"/>
+            <pc:TextLine id="region0004_line0000">
+                <pc:Coords points="487,1889 1059,1889 1059,1988 487,1988"/>
+                <pc:Word id="region0004_line0000_word0000">
+                    <pc:Coords points="576,1889 487,1889 487,1988 576,1988"/>
+                    <pc:TextEquiv conf="0.634497489929199">
+                        <pc:Unicode>Er</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0000_word0001">
+                    <pc:Coords points="565,1891 766,1891 766,1988 565,1988"/>
+                    <pc:TextEquiv conf="0.634497489929199">
+                        <pc:Unicode>ſtes</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:Word id="region0004_line0000_word0002">
+                    <pc:Coords points="810,1889 1059,1889 1059,1984 810,1984"/>
+                    <pc:TextEquiv conf="0.923902282714844">
+                        <pc:Unicode>Buch.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:Word>
+                <pc:TextEquiv conf="0.730965754191081">
+                    <pc:Unicode>Er ſtes Buch.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv conf="0.730965754191081">
+                <pc:Unicode>Er ſtes Buch.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+    </pc:Page>
+</pc:PcGts>
