@@ -54,6 +54,12 @@ Die Bezeichnungen der Dateigruppen variieren, folgen aber im Wesentlichen demsel
 * `PRESENTATION` und `THUMBS` sind herunterskalierte Versionen der Bilder für die Digitale Bibliothek
 * `DEFAULT` (bisweilen auch `MAX`) sind meist die höchsten verfügbaren Auflösungen der Bilder, die wir für die OCR verwenden möchten
 
+**TIP**: Um später mit `browse-ocrd` arbeiten zu können, entfernen wir alle Dateigruppen, die nicht benötigt werden:
+
+```sh
+❯ ocrd workspace -d loewenthal1896 remove-group --recursive --force THUMBS PRESENTATION FULLTEXT
+```
+
 Als nächstes sehen wir uns an, welche Dateien in `DEFAULT` vorhanden sind. Wir
 wollen wissen was die jeweilige URL ist, welche Seite repräsentiert wird und
 welchen Media Type die Dateien haben:

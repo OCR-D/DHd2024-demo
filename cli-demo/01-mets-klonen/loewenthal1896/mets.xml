@@ -173,136 +173,6 @@
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000021.ocr.xml"/>
       </mets:file>
     </mets:fileGrp>
-    <mets:fileGrp USE="PRESENTATION">
-      <mets:file ID="FILE_0001_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000001.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0002_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000002.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0003_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000003.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0004_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000004.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0005_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000005.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0006_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000006.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0007_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000007.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0008_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000008.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0009_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000009.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0010_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000010.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0011_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000011.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0012_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000012.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0013_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000013.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0014_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000014.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0015_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000015.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0016_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000016.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0017_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000017.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0018_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000018.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0019_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000019.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0020_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000020.tif"/>
-      </mets:file>
-      <mets:file ID="FILE_0021_PRESENTATION" MIMETYPE="image/tiff">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN680203753/00000021.tif"/>
-      </mets:file>
-    </mets:fileGrp>
-    <mets:fileGrp USE="THUMBS">
-      <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000001/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0002_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000002/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0003_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000003/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0004_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000004/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0005_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000005/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0006_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000006/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0007_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000007/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0008_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000008/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0009_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000009/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0010_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000010/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0011_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000011/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0012_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000012/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0013_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000013/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0014_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000014/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0015_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000015/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0016_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000016/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0017_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000017/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0018_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000018/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0019_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000019/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0020_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000020/full/150,/0/default.png"/>
-      </mets:file>
-      <mets:file ID="FILE_0021_THUMBS" MIMETYPE="image/png">
-        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000021/full/150,/0/default.png"/>
-      </mets:file>
-    </mets:fileGrp>
     <mets:fileGrp USE="DEFAULT">
       <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpg">
         <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN680203753-00000001/full/max/0/default.jpg"/>
@@ -405,128 +275,86 @@
     <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000000" ID="PHYS_0000" TYPE="physSequence">
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000001" ID="PHYS_0001" ORDER="1" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0001_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0001_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0001_THUMBS"/>
         <mets:fptr FILEID="FILE_0001_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000002" ID="PHYS_0002" ORDER="2" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0002_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0002_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0002_THUMBS"/>
         <mets:fptr FILEID="FILE_0002_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000003" ID="PHYS_0003" ORDER="3" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0003_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0003_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0003_THUMBS"/>
         <mets:fptr FILEID="FILE_0003_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000004" ID="PHYS_0004" ORDER="4" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0004_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0004_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0004_THUMBS"/>
         <mets:fptr FILEID="FILE_0004_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000005" ID="PHYS_0005" ORDER="5" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0005_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0005_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0005_THUMBS"/>
         <mets:fptr FILEID="FILE_0005_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000006" ID="PHYS_0006" ORDER="6" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0006_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0006_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0006_THUMBS"/>
         <mets:fptr FILEID="FILE_0006_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000007" ID="PHYS_0007" ORDER="7" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0007_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0007_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0007_THUMBS"/>
         <mets:fptr FILEID="FILE_0007_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000008" ID="PHYS_0008" ORDER="8" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0008_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0008_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0008_THUMBS"/>
         <mets:fptr FILEID="FILE_0008_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000009" ID="PHYS_0009" ORDER="9" ORDERLABEL="3" TYPE="page">
         <mets:fptr FILEID="FILE_0009_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0009_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0009_THUMBS"/>
         <mets:fptr FILEID="FILE_0009_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000010" ID="PHYS_0010" ORDER="10" ORDERLABEL="4" TYPE="page">
         <mets:fptr FILEID="FILE_0010_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0010_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0010_THUMBS"/>
         <mets:fptr FILEID="FILE_0010_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000011" ID="PHYS_0011" ORDER="11" ORDERLABEL="5" TYPE="page">
         <mets:fptr FILEID="FILE_0011_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0011_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0011_THUMBS"/>
         <mets:fptr FILEID="FILE_0011_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000012" ID="PHYS_0012" ORDER="12" ORDERLABEL="6" TYPE="page">
         <mets:fptr FILEID="FILE_0012_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0012_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0012_THUMBS"/>
         <mets:fptr FILEID="FILE_0012_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000013" ID="PHYS_0013" ORDER="13" ORDERLABEL="7" TYPE="page">
         <mets:fptr FILEID="FILE_0013_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0013_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0013_THUMBS"/>
         <mets:fptr FILEID="FILE_0013_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000014" ID="PHYS_0014" ORDER="14" ORDERLABEL="8" TYPE="page">
         <mets:fptr FILEID="FILE_0014_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0014_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0014_THUMBS"/>
         <mets:fptr FILEID="FILE_0014_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000015" ID="PHYS_0015" ORDER="15" ORDERLABEL="9" TYPE="page">
         <mets:fptr FILEID="FILE_0015_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0015_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0015_THUMBS"/>
         <mets:fptr FILEID="FILE_0015_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000016" ID="PHYS_0016" ORDER="16" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0016_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0016_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0016_THUMBS"/>
         <mets:fptr FILEID="FILE_0016_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000017" ID="PHYS_0017" ORDER="17" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0017_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0017_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0017_THUMBS"/>
         <mets:fptr FILEID="FILE_0017_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000018" ID="PHYS_0018" ORDER="18" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0018_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0018_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0018_THUMBS"/>
         <mets:fptr FILEID="FILE_0018_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000019" ID="PHYS_0019" ORDER="19" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0019_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0019_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0019_THUMBS"/>
         <mets:fptr FILEID="FILE_0019_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000020" ID="PHYS_0020" ORDER="20" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0020_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0020_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0020_THUMBS"/>
         <mets:fptr FILEID="FILE_0020_DEFAULT"/>
       </mets:div>
       <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB00006D8700000021" ID="PHYS_0021" ORDER="21" ORDERLABEL=" - " TYPE="page">
         <mets:fptr FILEID="FILE_0021_FULLTEXT"/>
-        <mets:fptr FILEID="FILE_0021_PRESENTATION"/>
-        <mets:fptr FILEID="FILE_0021_THUMBS"/>
         <mets:fptr FILEID="FILE_0021_DEFAULT"/>
       </mets:div>
     </mets:div>
