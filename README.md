@@ -7,6 +7,7 @@
 * [02 - Einfacher Tesseract Workflow auf loewenthal1896](./cli-demo/02-tesseract)
 * [03 - Einfacher Workflow mit Tessseract, Kraken und Calamari auf Prinzenraub](./cli-demo/03-prinzenraub/)
 * [04 - Rudimentäres TEI erzeugen](./cli-demo/04-tei)
+* [05 - Evaluation](./cli-demo/05-eval/)
 
 ## OCR-D Network Demo
 
