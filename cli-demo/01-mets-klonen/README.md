@@ -1,18 +1,20 @@
 # Werke aus digitalen Bibliotheken mit OCR-D laden
 
-Als ersten Einstieg in OCR-D wollen wir ein bilddigitalisiertes Werk aus einer Digitalen Bibliothek laden mit dem `ocrd workspace clone` Befehl und uns die Ergebnisse ansehen
+Als ersten Einstieg in OCR-D wollen wir ein bilddigitalisiertes Werk aus einer
+Digitalen Bibliothek laden mit dem `ocrd workspace clone` Befehl und uns die
+Ergebnisse ansehen
 
 ## METS Link kopieren
 
-Als Beispiel wählen wir hier https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN680203753
-aber es kann prinzipiell jedes Werk aus einer deutschen Bibliothek geladen werden, dass gemäß
-den [DFG Praxisregeln Digitalisierung](https://www.dfg.de/resource/blob/176108/898bf3574ad0ff3b1db525fa7d04c86c/12-151-v1216-de-data.pdf)
-digitalisiert wurde und für die eine METS-XML Datei verfügbar ist. Für historische Drucke ist das meistens der Fall.
+Als Beispiel wählen wir hier einen [kurzen Text aus den Digitalisierten Sammlunngen der Staatsbibliothek zu Berlin](https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN680203753) aber es
+kann prinzipiell jedes Werk aus einer deutschen Bibliothek geladen werden, dass
+gemäß den [DFG Praxisregeln Digitalisierung](https://www.dfg.de/resource/blob/176108/898bf3574ad0ff3b1db525fa7d04c86c/12-151-v1216-de-data.pdf) digitalisiert wurde und für die eine METS-XML Datei verfügbar ist. Für
+historische Drucke ist das meistens der Fall, siehe Ende des READMEs für mehr Beispiele.
 
 METS-XML ist ein Dateiformat, dass digitale Objekte beschreibt und enthält
-neben bibliografischen und technischen Metadaten Referenzen auf die Dateien
-die das Werk repräsentieren, sowie die physische Struktur (welche Dateien bilden welche Seiten ab) und
-ggf. logische Struktur (Inhaltsverzeichnis).
+neben bibliografischen und technischen Metadaten Referenzen auf die Dateien die
+das Werk repräsentieren, sowie die physische Struktur (welche Dateien bilden
+welche Seiten ab) und ggf. logische Struktur (Inhaltsverzeichnis).
 
 Wie man an die METS-Datei gelangt, hängt von der jeweiligen Digitalen Bibliothek ab, aber im Allgemeinen
 findet man einen Link darauf im Metadaten-Bereich.
@@ -141,3 +143,17 @@ Der Workspace ist jetzt soweit vollständig, dass wir OCR durchführen können.
 ```sh
 ❯ ocrd -l DEBUG workspace -d loewenthal1896 clone -q DEFAULT --download https://content.staatsbibliothek-berlin.de/dc/PPN680203753.mets.xml
 ```
+
+## Weitere Beispiele
+
+### SLUB Dresden
+
+https://digital.slub-dresden.de/werkansicht/dlf/84782/1
+
+![](slub-mets-beispiel.PNG)
+
+### UB Tübingen
+
+https://opendigi.ub.uni-tuebingen.de/opendigi/thlz_036_1911#p=88&tab=inf://opendigi.ub.uni-tuebingen.de/opendigi/thlz_036_1911#p=88&tab=info^
+
+![](./tuebingen-mets.png)
