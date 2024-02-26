@@ -259,3 +259,26 @@ Wir können nun die dokumentweiten Ergebnisse in der JSON-Datei `EVAL/EVAL.json`
 }
 
 ```
+
+Wir sehen dass
+
+* die CER um die 3% was für ein generisches Modell ohne weitere Eingriffe schon recht gut ist.
+
+An der Verwechslungstabelle sehen wir dass
+
+* die OCR teilweise vorlagengetreur ist als die GT, bspw. das runde s (`ſ`) teilweise falsch transkribiert wurde
+* es einige systematische Fehler und einen long tail an einmaligen Fehlern gibt
+  (allerdings geringe Datenbasis/wenig Seiten, also möglich dass bestimmte
+  Phänomene einfach nicht oft genug auftauchen)
+* es auch die typischen OCR-Fehler wie `b/d m/n` gibt
+* oder falsch/nicht erkannte Satzzeichen, v.a. Leerzeichen
+* oderoder falsch/nicht erkanne Diakritika (`ö/o ö/oͤ`)
+
+Am Histogramm sehen wir, dass
+
+* es Glyphen gibt, wie das runde r (`ꝛ`), die gar nicht in der OCR auftauchen, also vmtl. nicht trainiert wurden
+* es den umgekehrten Fall gibt wie den Doppelbindestrich `⸗`, die in der GT zu `-` normalisiert wurden
+
+Wir können eine andere Metrik wählen, bspw. (`-P metric historic_latin -P gt_level 1`), mit der einige
+dieser Fehler "wegnormalisiert" werden, wenn bspw. die genaue Kodierung langes-vs-kurzes s nicht relevant
+ist, etwa für Volltextsuche.
